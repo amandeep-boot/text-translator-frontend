@@ -7,7 +7,7 @@ const App = () => {
 
   const handleTranslate = async (text) => {
     try {
-      const response = await fetch("https://text-translator-amber.vercel.app/translate", {
+      const response = await fetch("https://text-translator-hjzx.vercel.app//translate", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
